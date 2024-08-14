@@ -7,9 +7,11 @@ export const GET_CHARACTER_DETAILS = gql`
       birthYear
       homeworld {
         name
+        population
       }
       species {
         name
+        language
       }
       filmConnection {
         films {

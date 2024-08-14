@@ -16,9 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} h-full grid grid-cols-1 justify-between`}
-      >
+      <body className={`${inter.className} h-full grid grid-cols-1`}>
         {children}
       </body>
     </html>

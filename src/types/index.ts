@@ -17,9 +17,11 @@ type Film = {
 export type CharacterDetailed = {
   homeworld: {
     name: string
+    population: string
   }
   species: {
     name: string
+    language: string
   }
   filmConnection: {
     films: Film[]
